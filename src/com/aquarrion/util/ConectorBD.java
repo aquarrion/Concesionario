@@ -31,7 +31,7 @@ public class ConectorBD {
             } catch (IOException e) {
                 System.out.println("Error en el archivo de propiedades: " + e.getMessage());
             } catch (ClassNotFoundException e) {
-                System.out.println("Error al cargar el dirver: " + e.getMessage());
+                System.out.println("Error al cargar el driver: " + e.getMessage());
             } catch (SQLException throwables) {
                 System.out.println("Error en la conexion a la BD: " + throwables.getMessage());
             }
